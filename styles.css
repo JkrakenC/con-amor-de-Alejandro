@@ -6,12 +6,12 @@ body {
 .container {
     margin: 0;
     padding: 0;
-    background-color: #c6da52;
+    background-color: #c6e5b1;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #c6da52;
+    color: #c6e5b1;
     border-radius: 10px;
 }
 .heart {
@@ -65,7 +65,7 @@ a {
     font-family: 'Nothing You Could Do';
     font-weight: 700;
     font-size: 30px;
-    background-color: #c6da52;
+    background-color: #c6e5b1;
     color: #8db600;
     width: 90%;
     padding: 20px 0;
@@ -77,6 +77,6 @@ a {
 a:hover {
     transform: scale(1.05);
     background-color: #8db600;
-    color: #c6da52;
+    color: #c6e5b1;
     box-shadow: 0 0 200px #c6da52;
 }
