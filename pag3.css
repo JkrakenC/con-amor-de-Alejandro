@@ -8,12 +8,13 @@ body {
     margin: 0;
     padding: 5%;
     margin: 0 2.3%;
+    background-color: #c6da52;/*
     background-image: url(poem.jpeg);
     background-position: top;
-    background-size: cover;
+    background-size: cover;*/
     width: 80%;
     min-height: 100vh;
-    color: #f4f4f4;
+    color: #000;
     border-radius: 10px;
     text-align: center;
 }

@@ -1,6 +1,6 @@
 body {
     padding: 1%;
-    background-color: #0f4900;
+    background-color: #8db600;
     display: flex;
 }
 
@@ -13,7 +13,7 @@ body {
     background-size: cover;
     width: 80%;
     min-height: 100vh;
-    color: #a4a4a4;
+    color: #f4f4f4;
     border-radius: 10px;
     text-align: center;
 }
@@ -21,19 +21,19 @@ body {
 .button {
     margin: 0;
     padding: 5%;
-    background-color: #4ec55e;
+    background-color: #c6da52;
     width: 5%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #0f4900;
+    color: #8db600;
     border-radius: 10px;
     transition: all .4s ease;
 }
 .button:hover {
     transform: scale(0.9);
-    box-shadow: 10px 10px 90px #4ec55e;
+    box-shadow: 10px 10px 90px #c6da52;
 }
 
 .button img {

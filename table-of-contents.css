@@ -1,6 +1,6 @@
 body {
     padding: 1%;
-    background-color: #0f4900;
+    background-color: #8db600;
     display: flex;
 }
 
@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 5%;
     margin: 0 2.3%;
-    background-color: #5EC66C;
+    background-color: #c6da52;
     width: 80%;
     height: 90vh;
     display: flex;
@@ -21,7 +21,7 @@ body {
 .button {
     margin: 0;
     padding: 5%;
-    background-color: #4ec55e;
+    background-color: #c6da52;
     width: 5%;
     height: 90vh;
     display: flex;
@@ -33,7 +33,7 @@ body {
 }
 .button:hover {
     transform: scale(0.9);
-    box-shadow: 10px 10px 90px #4ec55e;
+    box-shadow: 10px 10px 90px #c6da52;
 }
 
 .button img {
@@ -52,7 +52,7 @@ body {
     display: block;
     margin-bottom: 10px;
     transition: all .3s ease;
-    border-bottom: #4ec55e solid 1px;
+    border-bottom: #c6da52 solid 1px;
 }
 .text-chart a:hover {
     border-bottom: #000 solid 1px;

@@ -1,25 +1,25 @@
 body {
     padding: 1%;
-    background-color: #0f4900;
+    background-color: #8db600;
 }
 
 .container {
     margin: 0;
     padding: 0;
-    background-color: #4ec55e;
+    background-color: #c6da52;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #4ec55e;
+    color: #c6da52;
     border-radius: 10px;
 }
 .heart {
     height: 90px;
     width: 90px;
-    background-color: #0f4900;
+    background-color: #8db600;
     position: relative;
-    box-shadow: 10px 10px 90px #0f4900;
+    box-shadow: 10px 10px 90px #8db600;
     animation: animHeart .8s linear infinite;
 }
 @keyframes animHeart {
@@ -38,18 +38,18 @@ body {
     position: absolute;
     height: 90px;
     width: 90px;
-    background-color: #0f4900;
-    box-shadow: -10px 10px 90px #0f4900;
+    background-color: #8db600;
+    box-shadow: -10px 10px 90px #8db600;
     top: -50%;
     border-radius: 50%;
 }
 .heart::after {
     content: '';
     position: absolute;
-    box-shadow: 10px -10px 90px #0f4900;
+    box-shadow: 10px -10px 90px #8db600;
     height: 90px;
     width: 90px;
-    background-color: #0f4900;
+    background-color: #8db600;
     right: -50%;
     border-radius: 50%;
 }
@@ -65,19 +65,18 @@ a {
     font-family: 'Nothing You Could Do';
     font-weight: 700;
     font-size: 30px;
-    background-color: #4ec55e;
-    color: #0f4900;
+    background-color: #c6da52;
+    color: #8db600;
     width: 90%;
     padding: 20px 0;
     border: none;
     border-radius: 10px;
     margin-top: 25px;
-    box-shadow: 10px 10px 90px #0f4900;
     transition: all .4s ease;
 }
 a:hover {
     transform: scale(1.05);
-    background-color: #0f4900;
-    color: #4ec55e;
-    box-shadow: 10px 10px 90px #4ec55e;
+    background-color: #8db600;
+    color: #c6da52;
+    box-shadow: 0 0 200px #c6da52;
 }
